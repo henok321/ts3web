@@ -1,0 +1,3 @@
+[submodule "ts3web"]
+	path = ts3web
+	url = https://github.com/MEschenbacher/ts3web.git
