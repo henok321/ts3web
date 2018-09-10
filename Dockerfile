@@ -1,6 +1,6 @@
 FROM php:7.0-apache
 COPY ts3web /var/www/html
-RUN ln -s /config/config.php /var/www/html/config.php
+COPY config.php /var/www/html/config.php
 RUN chown -R www-data:www-data /var/www/html
 WORKDIR /var/www/html
 ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
