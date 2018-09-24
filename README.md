@@ -47,3 +47,11 @@ services:
       - 8080:80 
 ```
 
+## See also
+https://hub.docker.com/r/henok321/ts3web/
+
+https://hub.docker.com/_/teamspeak/
+
+https://docs.docker.com/samples/library/teamspeak/
+
+
