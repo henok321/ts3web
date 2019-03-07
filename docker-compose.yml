@@ -1,0 +1,25 @@
+version: '3'
+
+services: 
+  teamspeak:
+    image: teamspeak:latest
+    volumes:
+      - ./data:/var/ts3server
+    ports:
+      - "10011:10011"
+      - "30033:30033"
+      - "9987-9989:9987-9989"
+    restart: always
+    environment: 
+      - TS3SERVER_LICENCE=accept
+
+  ts3web:
+    image: henok321/ts3web:latest
+    ports: 
+      - "9090:80"
+    restart: always
+    environment:
+      - ALIAS=Teamspeak3
+      - HOST=teamspeak
+      - PORT=10011
+      - LANG=en
