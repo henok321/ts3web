@@ -42,7 +42,7 @@ services:
     image: henok321/ts3web:latest
     restart: always
     environment:
-        - LANG : de
+        - LANG=de
     ports:
       - 8080:80 
 ```
