@@ -1,4 +1,4 @@
-FROM php:7-apache
+FROM php:8-apache
 COPY ts3web /var/www/html
 COPY config.php /var/www/html/config.php
 RUN chown -R www-data:www-data /var/www/html
