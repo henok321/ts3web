@@ -1,5 +1,9 @@
 # ts3web
 
+## DEPRECATED
+
+This project is not maintained anymore, will not get any patches, bugfixes or security updates. 
+
 Dockerize Psychokiller's Webinterface 
 
 ## Run docker 
