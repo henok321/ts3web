@@ -1,6 +1,6 @@
 # ts3web
 
-## DEPRECATED
+## ⚠️ DEPRECATED
 
 This project is not maintained anymore, will not get any patches, bugfixes or security updates. 
 
